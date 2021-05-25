@@ -3,7 +3,7 @@ kind: Pipeline
 metadata:
   name: linter-pipeline
 spec:
-       workspaces:
+  workspaces:
     - name: shared-workspace
   tasks:
     - name: fetch-repository
